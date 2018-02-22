@@ -1,0 +1,16 @@
+.polyimage-preview {
+    padding-top:  10px;
+}
+
+.polyimage-preview img {
+    max-width:  150px;
+    max-height:  150px;
+}
+.row_select {
+    display:  flex;
+    margin: 15px 0px;
+}
+.row_select> p{
+	min-width: 100px;
+	max-width: 100px;
+}

@@ -1,0 +1,33 @@
+.poy-image svg {
+    position:  absolute;
+    top: 0px;
+    left:  0px;
+}
+
+.poy-image {
+    position:  relative;
+}
+/*.poy-image circle,
+.poy-image rect,
+.poy-image polygon {
+    stroke-width: 3px;
+    stroke: #0168da;
+    fill: rgba(255,255,255,0.3);
+}*/
+
+.poy-image circle,
+.poy-image rect,
+.poy-image polygon {
+	cursor: pointer;
+}
+.balloon {
+    background: rgba(255, 255, 255, 0.79);
+    padding: 10px;
+    border-radius:  5px;
+    border: 1px grey solid;
+	width:  300px;
+}
+
+.balloon img {
+    max-width:  100%;
+}
